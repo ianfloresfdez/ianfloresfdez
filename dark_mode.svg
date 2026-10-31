@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1011px" height="530px" font-size="16px">
+<style>
+@font-face { src: local('Consolas'), local('Consolas Bold'); font-family: 'ConsolasFallback'; font-display: swap; -webkit-size-adjust: 109%; size-adjust: 109%; }
+.key {fill: #ffa657;} .value {fill: #a5d6ff;} .cc {fill: #616e7f;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="1011px" height="530px" fill="#161b22" rx="15"/>
+<text x="15" y="30" fill="#c9d1d9">
+<tspan x="15" y="30">                     []][</tspan>
+<tspan x="15" y="50">                }--?&gt;i!i!&lt;~~-[</tspan>
+<tspan x="15" y="70">             ///?+-&lt;&gt;&lt;&gt;+~i_]-]?](</tspan>
+<tspan x="15" y="90">           /|{]{?]?_][????-]-??_&gt;}</tspan>
+<tspan x="15" y="110">          r}-+-~i;l-_&gt;&lt;!;!+-!!iiIi]</tspan>
+<tspan x="15" y="130">          j&gt;/(?~_1t(??~~&gt;l;!&gt;I;:;I!+</tspan>
+<tspan x="15" y="150">          1/hu|)xXQzznuut+;~_+]&lt;I:,)</tspan>
+<tspan x="15" y="170">          1hMpqQnnCOq0Unj()){)fx1&quot;}</tspan>
+<tspan x="15" y="190">          ZB@aZU1xJk%kr{{(~[1/tc|_</tspan>
+<tspan x="15" y="210">          h$$$@%%@%B$aOQ00YUCmQY|/</tspan>
+<tspan x="15" y="230">          p$%B@@@%#8&amp;qOOk*#obmYu/n</tspan>
+<tspan x="15" y="250">          L@%%B@@&amp;UzY{|zbbwOUnjju</tspan>
+<tspan x="15" y="270">           M@%%oabQCzrfYZ0QJcrrf</tspan>
+<tspan x="15" y="290">           rW&amp;#dwm0CUYxrrrcujjv</tspan>
+<tspan x="15" y="310">             bo##*dCXzvnxrf/|rf</tspan>
+<tspan x="15" y="330">             vodbdpmLznj/|||tn!!</tspan>
+<tspan x="15" y="350">         -&gt;-,]WdmCYunf|rxxnr(&gt;&quot;&quot;&lt;</tspan>
+<tspan x="15" y="370">?]?__~~+i;_+&quot;ikhbbm00OOQUu)&lt;,&quot;,,,;&gt;</tspan>
+<tspan x="15" y="390">+++~&gt;&lt;&lt;l!-]~;~zqJCZqdwYf]l&quot;&quot;&quot;,,;IIlll]</tspan>
+<tspan x="15" y="410">&lt;&lt;&gt;&gt;~&gt;l&gt;~~I:!&gt;|Jvrun/-l&quot;&quot;&quot;&quot;,:IllI!il!II!</tspan>
+<tspan x="15" y="430">i&gt;&lt;+i!~+&gt;&gt;I:,,l(_;,&quot;&quot;&quot;&quot;&quot;,:Il!i!l&gt;i!!l!i!</tspan>
+<tspan x="15" y="450">&lt;~+i&gt;+~&lt;~~i&gt;!I;&quot;&quot;&quot;&quot;,:,,:Il!i!ll&lt;&gt;ll!ii!!</tspan>
+<tspan x="15" y="470">~~&gt;&gt;~&lt;&gt;&gt;~&gt;&gt;&gt;&gt;IllI;l!l!iiiiilI!&lt;ili&lt;&gt;i!i&gt;</tspan>
+<tspan x="15" y="490">&lt;&gt;&lt;&lt;&lt;&lt;&gt;&lt;~&lt;ill;&gt;i!&lt;il!i!!i&gt;Ili&gt;i!&gt;&lt;&gt;!&gt;&gt;ii</tspan>
+<tspan x="15" y="510">&gt;&gt;&gt;&gt;&gt;i&gt;~&gt;l;lli!I&gt;il!ii!&gt;&gt;I!&gt;&lt;i!&lt;&gt;!i&gt;!!i&gt;</tspan>
+</text>
+<text x="415" y="30" fill="#c9d1d9">
+<tspan x="415" y="30">ian@floresfdez <tspan class="cc">-———————————————————————————————————————————-</tspan></tspan>
+<tspan x="415" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">Windows 11</tspan></tspan>
+<tspan x="415" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">5 años, 5 meses, 1 día</tspan></tspan>
+<tspan x="415" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">i5-13600K · RX 6800 16 GB · 32 GB RAM</tspan></tspan>
+<tspan x="415" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Desarrollador · IA local y agentes LLM</tspan></tspan>
+<tspan x="415" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">VS Code, Claude Code</tspan></tspan>
+<tspan x="415" y="150"><tspan class="cc">. </tspan></tspan>
+<tspan x="415" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Python, TypeScript, Rust, PHP</tspan></tspan>
+<tspan x="415" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">HTML, CSS, SQL, YAML, Dockerfile</tspan></tspan>
+<tspan x="415" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Español, English</tspan></tspan>
+<tspan x="415" y="230"><tspan class="cc">. </tspan></tspan>
+<tspan x="415" y="250"><tspan class="cc">. </tspan><tspan class="key">LLM</tspan>.<tspan class="key">Local</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">Ollama (Vulkan), gemma4, gpt-oss</tspan></tspan>
+<tspan x="415" y="270"><tspan class="cc">. </tspan><tspan class="key">Projects</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">llm-gateway, jack, codegraph, jobscout-mcp</tspan></tspan>
+<tspan x="415" y="290"><tspan class="cc">. </tspan><tspan class="key">Stack</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Docker, Helm, kind, GitHub Actions</tspan></tspan>
+<tspan x="415" y="310"><tspan class="cc">. </tspan></tspan>
+<tspan x="415" y="330">- Contact <tspan class="cc">-————————————————————————————————————————————————-</tspan></tspan>
+<tspan x="415" y="350"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">ianfloresfdez</tspan></tspan>
+<tspan x="415" y="370"><tspan class="cc">. </tspan></tspan>
+<tspan x="415" y="390">- GitHub Stats <tspan class="cc">-———————————————————————————————————————————-</tspan></tspan>
+<tspan x="415" y="410"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> . </tspan><tspan class="value">4</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">1</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">0</tspan></tspan>
+<tspan x="415" y="430"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">21</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">0</tspan></tspan>
+</text>
+</svg>
