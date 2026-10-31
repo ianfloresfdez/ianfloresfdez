@@ -1,111 +1,61 @@
-"""Genera dark_mode.svg y light_mode.svg: ASCII de la foto + panel tipo neofetch con datos de GitHub.
+"""Genera dark_mode.svg y light_mode.svg: ASCII de la foto + panel tipo neofetch con el CV.
 
-Uso: GH_TOKEN=... python build.py   (en local vale con `gh auth token`; en la Action, GITHUB_TOKEN)
+Uso: python build.py   (la Action lo ejecuta a diario para que "Uptime" vaya al día)
 """
 import datetime as dt
-import json
-import os
-import subprocess
-import urllib.request
 from html import escape
 
-USER = "ianfloresfdez"
-CREATED = dt.date(2021, 5, 30)  # alta de la cuenta de GitHub
+CAREER_START = dt.date(2020, 11, 1)  # primer empleo (COVERCAR)
 WIDTH = 60  # caracteres de cada línea del panel
-X_PANEL, Y0, LINE = 415, 30, 20
+X_PANEL, Y0, LINE = 430, 30, 20
+ART_FONT, ART_LINE = 8, 9  # el ASCII va más pequeño para que se vean ojos y boca
+ART_WIDTH = 390  # px que ocupa cada fila del ASCII; deja 25 px de margen hasta el panel
 
-# (clave, valor); None = línea en blanco; str = cabecera de sección
+# ((clave, subclave...), valor); None = línea en blanco; str = cabecera de sección
 INFO = [
-    "ian@floresfdez",
-    (("OS",), "Windows 11"),
+    "ian@flores",
+    (("Role",), "Software Engineer — AI & Backend"),
+    (("Location",), "Barcelona, Spain"),
     (("Uptime",), "{uptime}"),
-    (("Host",), "i5-13600K · RX 6800 16 GB · 32 GB RAM"),
-    (("Kernel",), "Desarrollador · IA local y agentes LLM"),
-    (("IDE",), "VS Code, Claude Code"),
     None,
-    (("Languages", "Programming"), "Python, TypeScript, Rust, PHP"),
-    (("Languages", "Computer"), "HTML, CSS, SQL, YAML, Dockerfile"),
-    (("Languages", "Real"), "Español, English"),
+    "- Experience",
+    (("Work", "Current"), "Software Engineer @ NEORIS (EPAM), 2023–"),
+    (("Work", "Previous"), "Full-stack Developer @ COVERCAR, 2020–23"),
     None,
-    (("LLM", "Local"), "Ollama (Vulkan), gemma4, gpt-oss"),
-    (("Projects",), "llm-gateway, jack, codegraph, jobscout-mcp"),
-    (("Stack", "Infra"), "Docker, Helm, kind, GitHub Actions"),
+    "- Skills",
+    (("AI", "ML"), "LLMs, RAG, embeddings, agentic systems, MCP"),
+    (("Languages", "Code"), "Python, PHP, JavaScript, Java, SQL"),
+    (("Frameworks",), "Laravel, Symfony, Django, Angular, Next.js"),
+    (("Infra",), "AWS, Docker, MySQL, MongoDB, Git, ETL"),
+    (("Languages", "Real"), "Spanish, Catalan, English, German"),
+    None,
+    "- Awards",
+    (("HackDays4Learning", "2025"), "1st place · Quizzards"),
+    (("HackDays4Learning", "2026"), "2nd place · Paper2Quizz"),
+    None,
+    "- Education",
+    (("Education", "AI"), "AI & Big Data specialization · IOC"),
+    (("Education", "Web"), "Web App Development · 9.18/10"),
     None,
     "- Contact",
-    (("GitHub",), "ianfloresfdez"),
-    None,
-    "- GitHub Stats",
-    "{stats1}",
-    "{stats2}",
+    (("Email",), "ianfloresf71@gmail.com"),
+    (("LinkedIn",), "ian-flores-fdez"),
+    (("Web",), "ratemydecks.com"),
 ]
 
 THEMES = {
-    "dark": dict(bg="#161b22", fg="#c9d1d9", key="#ffa657", value="#a5d6ff", cc="#616e7f", add="#3fb950"),
-    "light": dict(bg="#f6f8fa", fg="#24292f", key="#953800", value="#0a3069", cc="#c2cfde", add="#1a7f37"),
+    "dark": dict(bg="#161b22", fg="#c9d1d9", key="#ffa657", value="#a5d6ff", cc="#616e7f"),
+    "light": dict(bg="#f6f8fa", fg="#24292f", key="#953800", value="#0a3069", cc="#c2cfde"),
 }
 
 
-def token():
-    t = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
-    if t:
-        return t
-    return subprocess.run(["gh", "auth", "token"], capture_output=True, text=True, check=True).stdout.strip()
-
-
-def gql(query, **variables):
-    req = urllib.request.Request(
-        "https://api.github.com/graphql",
-        data=json.dumps({"query": query, "variables": variables}).encode(),
-        headers={"Authorization": f"bearer {token()}", "Content-Type": "application/json"},
-    )
-    with urllib.request.urlopen(req) as r:
-        data = json.load(r)
-    if "errors" in data:
-        raise RuntimeError(data["errors"])
-    return data["data"]
-
-
-def stats():
-    u = gql(
-        """query($login: String!) { user(login: $login) {
-             followers { totalCount }
-             repositories(ownerAffiliations: OWNER, privacy: PUBLIC, first: 100) {
-               totalCount nodes { stargazerCount } }
-             repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST]) { totalCount } } }""",
-        login=USER,
-    )["user"]
-    commits = 0
-    for year in range(CREATED.year, dt.date.today().year + 1):
-        c = gql(
-            """query($login: String!, $from: DateTime!, $to: DateTime!) { user(login: $login) {
-                 contributionsCollection(from: $from, to: $to) {
-                   totalCommitContributions restrictedContributionsCount } } }""",
-            login=USER, **{"from": f"{year}-01-01T00:00:00Z", "to": f"{year}-12-31T23:59:59Z"},
-        )["user"]["contributionsCollection"]
-        commits += c["totalCommitContributions"] + c["restrictedContributionsCount"]
-    return dict(
-        repos=u["repositories"]["totalCount"],
-        stars=sum(n["stargazerCount"] for n in u["repositories"]["nodes"]),
-        contrib=u["repositoriesContributedTo"]["totalCount"],
-        followers=u["followers"]["totalCount"],
-        commits=commits,
-    )
-
-
 def uptime(today):
-    y, m, d = today.year - CREATED.year, today.month - CREATED.month, today.day - CREATED.day
-    if d < 0:
-        m -= 1
-        d += (today.replace(day=1) - dt.timedelta(days=1)).day
+    y, m = today.year - CAREER_START.year, today.month - CAREER_START.month
     if m < 0:
         y -= 1
         m += 12
     plural = lambda n, s, p: f"{n} {s if n == 1 else p}"
-    return f"{plural(y, 'año', 'años')}, {plural(m, 'mes', 'meses')}, {plural(d, 'día', 'días')}"
-
-
-def dots(n):
-    return " " + "." * max(n - 2, 1) + " "
+    return f"{plural(y, 'year', 'years')}, {plural(m, 'month', 'months')} in production"
 
 
 def kv_line(keys, value):
@@ -113,47 +63,27 @@ def kv_line(keys, value):
     label_len = len(".".join(keys)) + 1
     fill = WIDTH - 2 - label_len - len(value)
     keys_svg = ".".join(f'<tspan class="key">{escape(k)}</tspan>' for k in keys)
-    return (f'<tspan class="cc">. </tspan>{keys_svg}:<tspan class="cc">{dots(fill)}</tspan>'
+    return (f'<tspan class="cc">. </tspan>{keys_svg}:<tspan class="cc"> {"." * max(fill - 2, 1)} </tspan>'
             f'<tspan class="value">{escape(value)}</tspan>')
-
-
-def stat_pair(k1, v1, k2, v2, extra=""):
-    """Dos estadísticas en una línea: '. A: ... 1 | B: ... 2'."""
-    half = (WIDTH - 2 - 3) // 2
-    a = half - len(k1) - 1 - len(v1) - len(extra)
-    b = (WIDTH - 2 - 3 - half) - len(k2) - 1 - len(v2)
-    extra_svg = ""
-    if extra:
-        n = extra.strip(" {}").split(": ")
-        extra_svg = f' {{<tspan class="key">{n[0]}</tspan>: <tspan class="value">{n[1]}</tspan>}}'
-    return (f'<tspan class="cc">. </tspan><tspan class="key">{k1}</tspan>:<tspan class="cc">{dots(a)}</tspan>'
-            f'<tspan class="value">{v1}</tspan>{extra_svg} | <tspan class="key">{k2}</tspan>:'
-            f'<tspan class="cc">{dots(b)}</tspan><tspan class="value">{v2}</tspan>')
 
 
 def header(title):
     return f'{escape(title)} <tspan class="cc">-{"—" * (WIDTH - len(title) - 3)}-</tspan>'
 
 
-def render(theme, ascii_art, s, today):
+def render(theme, ascii_art, today):
     c = THEMES[theme]
     lines = []
     for item in INFO:
         if item is None:
             lines.append('<tspan class="cc">. </tspan>')
-        elif item == "{stats1}":
-            lines.append(stat_pair("Repos", f"{s['repos']:,}", "Stars", f"{s['stars']:,}",
-                                   extra=f" {{Contributed: {s['contrib']:,}}}"))
-        elif item == "{stats2}":
-            lines.append(stat_pair("Commits", f"{s['commits']:,}", "Followers", f"{s['followers']:,}"))
         elif isinstance(item, str):
             lines.append(header(item))
         else:
             lines.append(kv_line(item[0], item[1].format(uptime=uptime(today))))
 
     art = ascii_art.rstrip("\n").split("\n")
-    rows = max(len(art), len(lines))
-    height = Y0 + (rows - 1) * LINE + 20
+    height = max(Y0 - 6 + (len(art) - 1) * ART_LINE, Y0 + (len(lines) - 1) * LINE) + 20
     width = X_PANEL + int(WIDTH * 9.6) + 20
 
     out = [
@@ -167,11 +97,13 @@ def render(theme, ascii_art, s, today):
         "text, tspan {white-space: pre;}",
         "</style>",
         f'<rect width="{width}px" height="{height}px" fill="{c["bg"]}" rx="15"/>',
-        f'<text x="15" y="{Y0}" fill="{c["fg"]}">',
     ]
+    # cada fila con ancho fijo (textLength): sin Consolas la letra de reserva es más ancha y pisaba el panel
+    cols = max(len(row) for row in art)
     for i, row in enumerate(art):
-        out.append(f'<tspan x="15" y="{Y0 + i * LINE}">{escape(row)}</tspan>')
-    out.append("</text>")
+        if row.strip():
+            out.append(f'<text x="15" y="{Y0 - 6 + i * ART_LINE}" fill="{c["fg"]}" font-size="{ART_FONT}px" '
+                       f'textLength="{ART_WIDTH}" lengthAdjust="spacingAndGlyphs">{escape(row.ljust(cols))}</text>')
     out.append(f'<text x="{X_PANEL}" y="{Y0}" fill="{c["fg"]}">')
     for i, line in enumerate(lines):
         out.append(f'<tspan x="{X_PANEL}" y="{Y0 + i * LINE}">{line}</tspan>')
@@ -182,13 +114,11 @@ def render(theme, ascii_art, s, today):
 
 def main():
     today = dt.date.today()
-    s = stats()
     for theme in THEMES:
         with open(f"ascii_{theme}.txt", encoding="utf-8") as f:
             art = f.read()
         with open(f"{theme}_mode.svg", "w", encoding="utf-8", newline="\n") as f:
-            f.write(render(theme, art, s, today))
-    print(s)
+            f.write(render(theme, art, today))
 
 
 if __name__ == "__main__":

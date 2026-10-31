@@ -1,59 +1,103 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1011px" height="530px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1026px" height="629px" font-size="16px">
 <style>
 @font-face { src: local('Consolas'), local('Consolas Bold'); font-family: 'ConsolasFallback'; font-display: swap; -webkit-size-adjust: 109%; size-adjust: 109%; }
 .key {fill: #953800;} .value {fill: #0a3069;} .cc {fill: #c2cfde;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="1011px" height="530px" fill="#f6f8fa" rx="15"/>
-<text x="15" y="30" fill="#24292f">
-<tspan x="15" y="30">                     qppq</tspan>
-<tspan x="15" y="50">                wbbd*MWMMoaabq</tspan>
-<tspan x="15" y="70">             QQLdhbo**#ho#kpbpdd0</tspan>
-<tspan x="15" y="90">           Q0mdwddbkppdbbdbdbddk#q</tspan>
-<tspan x="15" y="110">          YwkhboM8Wkk*oM8WhbMM#M8Md</tspan>
-<tspan x="15" y="130">          U*L0bakmCObdaa*&amp;8W#&amp;%B88Mh</tspan>
-<tspan x="15" y="150">          mQ+zQOYx/uuXzzCh8ahhp*8%BZ</tspan>
-<tspan x="15" y="170">          Z+i]}/Xzt)}|jXUOOOmZJXZ$q</tspan>
-<tspan x="15" y="190">          ):,~)rZXf-;_UmwOaqZLCvQk</tspan>
-<tspan x="15" y="210">          +&quot;&quot;&quot;&quot;;:,;:&quot;~(/(|rrt{/rQL</tspan>
-<tspan x="15" y="230">          ]&quot;;,&quot;&quot;,;i;I[)(_&gt;&gt;~-{rzQz</tspan>
-<tspan x="15" y="250">          /&quot;;:,,,Ijnxm0n?-{(jXUUz</tspan>
-<tspan x="15" y="270">           i,;;~~-|fnUJr1(/fuYUJ</tspan>
-<tspan x="15" y="290">           Y!Ii]}1(tjxXUYYvzUUc</tspan>
-<tspan x="15" y="310">             -&lt;&gt;&gt;&lt;]fxuvzXUJLQYJ</tspan>
-<tspan x="15" y="330">             v&lt;?-][1/nXUL000LXMM</tspan>
-<tspan x="15" y="350">         k#bBd!?{fxzXCQYXXXY0#@@o</tspan>
-<tspan x="15" y="370">ddbkhaah#8kh$#_+?-1((()|jcOo@$@BB%*</tspan>
-<tspan x="15" y="390">hhha*ooWWkpa8on[ft1[?{rJd&amp;$$$@B8&amp;&amp;&amp;&amp;&amp;d</tspan>
-<tspan x="15" y="410">o**#o*W*oo8BM#0fcUczQb&amp;@$$@B%8W&amp;&amp;MMWM&amp;&amp;M</tspan>
-<tspan x="15" y="430">#*oh#Maa#*8%B@&amp;Ok%@$$$$@@B8WM#WW##MWWWMW</tspan>
-<tspan x="15" y="450">oah##ao*aa#*W8%$$$$@BBBB8WM#M&amp;W*#W&amp;MMMMW</tspan>
-<tspan x="15" y="470">aa#*ao**o*#**&amp;&amp;W88&amp;MWW##MM#W&amp;M*#&amp;Mo#MM#*</tspan>
-<tspan x="15" y="490">o*****#*o*#W&amp;8*#M*#WMMMM##&amp;W#*MW**#M####</tspan>
-<tspan x="15" y="510">*****##o*&amp;8WWMM&amp;##&amp;M#MM##8W**#W*#M##WM##</tspan>
-</text>
-<text x="415" y="30" fill="#24292f">
-<tspan x="415" y="30">ian@floresfdez <tspan class="cc">-———————————————————————————————————————————-</tspan></tspan>
-<tspan x="415" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">Windows 11</tspan></tspan>
-<tspan x="415" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">5 años, 5 meses, 1 día</tspan></tspan>
-<tspan x="415" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">i5-13600K · RX 6800 16 GB · 32 GB RAM</tspan></tspan>
-<tspan x="415" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Desarrollador · IA local y agentes LLM</tspan></tspan>
-<tspan x="415" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">VS Code, Claude Code</tspan></tspan>
-<tspan x="415" y="150"><tspan class="cc">. </tspan></tspan>
-<tspan x="415" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Python, TypeScript, Rust, PHP</tspan></tspan>
-<tspan x="415" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">HTML, CSS, SQL, YAML, Dockerfile</tspan></tspan>
-<tspan x="415" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Español, English</tspan></tspan>
-<tspan x="415" y="230"><tspan class="cc">. </tspan></tspan>
-<tspan x="415" y="250"><tspan class="cc">. </tspan><tspan class="key">LLM</tspan>.<tspan class="key">Local</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">Ollama (Vulkan), gemma4, gpt-oss</tspan></tspan>
-<tspan x="415" y="270"><tspan class="cc">. </tspan><tspan class="key">Projects</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">llm-gateway, jack, codegraph, jobscout-mcp</tspan></tspan>
-<tspan x="415" y="290"><tspan class="cc">. </tspan><tspan class="key">Stack</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Docker, Helm, kind, GitHub Actions</tspan></tspan>
-<tspan x="415" y="310"><tspan class="cc">. </tspan></tspan>
-<tspan x="415" y="330">- Contact <tspan class="cc">-————————————————————————————————————————————————-</tspan></tspan>
-<tspan x="415" y="350"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">ianfloresfdez</tspan></tspan>
-<tspan x="415" y="370"><tspan class="cc">. </tspan></tspan>
-<tspan x="415" y="390">- GitHub Stats <tspan class="cc">-———————————————————————————————————————————-</tspan></tspan>
-<tspan x="415" y="410"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> . </tspan><tspan class="value">4</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">1</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">0</tspan></tspan>
-<tspan x="415" y="430"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">21</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">0</tspan></tspan>
+<rect width="1026px" height="629px" fill="#f6f8fa" rx="15"/>
+<text x="15" y="42" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                                               UJQQLQUOQ                                  </text>
+<text x="15" y="51" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                                          CLn0Owha##MkaahdbpmZQ                           </text>
+<text x="15" y="60" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                                     OQ0ObmLwkM%#aWaa&amp;oaa*ooobbpZL                        </text>
+<text x="15" y="69" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                                 QXY0JZkMhZZMMM#*WW***&amp;Who*kk*pkbabdL                     </text>
+<text x="15" y="78" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                              ZX|c0fYLo#oLbWoWa#kMM*ao#M*Z0bk*kpbmqaWZJ                   </text>
+<text x="15" y="87" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                             UxzcajJLwMdJdMm*dO#bMahbbk#oh0OxzqpYLZzapZmX                 </text>
+<text x="15" y="96" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                           CCjwvUXuJUbQJUmJLwwbwXbZLXYJpk&amp;BqJLJcQCY0YZbmbJ                </text>
+<text x="15" y="105" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                          c|cLzXZmbwLLqqX0QJ*kUCXLxJU0zzzUkbbhMXJaJmbOaMapY               </text>
+<text x="15" y="114" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                        qjjJm00Wp*MzJMdpWW*adxnOZaZbo&amp;WpQLfUYz&amp;Wmw$Qd#d@&amp;bZQ              </text>
+<text x="15" y="123" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                        tfLkQQ8ahdmoo##B8&amp;#*OXb#a&amp;&amp;oMW88W@CCuQb#*k&amp;baBh%%WbwZ             </text>
+<text x="15" y="132" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       0|npobqkqQZMMMW&amp;&amp;WWhOmo#&amp;#paoM#88888hqoq8aM#h*BMBB&amp;Wqaq            </text>
+<text x="15" y="141" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       x|JaakqwmLoW*W&amp;WoopmOpMohbdohk#BWW%%W**W8h8W##%M#WBWhh&amp;L           </text>
+<text x="15" y="150" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       vnmb%L|vmoaZk#aqpUvXu0qYqZZao#oh*W%%W&amp;&amp;Mo*#M&amp;WBB8B%8#WBw           </text>
+<text x="15" y="159" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       nz*q&amp;};cqQOOaOzr/&lt;1((LXXJdhamUXhp*8WM%oZdMB%B$$@B%8%%%%Q           </text>
+<text x="15" y="168" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       XLhWzi,zCh&amp;&amp;#mzx/({~xJjvzCX((|nXfa8&amp;WbzLwhh0baW%@@@B%@k            </text>
+<text x="15" y="177" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       wLpk:&quot;]ucnfvQmdbqCtxt||}]){+?ftnYd#B&amp;abpdq/}|vCqo@@B@%X            </text>
+<text x="15" y="186" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                        Cku&quot;l}I&quot;!+_][]/t(()/|[[{t}-uUXUqbaooo##Moqu{jrvU%@B%0             </text>
+<text x="15" y="195" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                        ow+&quot;l!i[{{ffuCJCu(({???)njnCzvzcvj)(1(nuUOmLfxxr&amp;$$L              </text>
+<text x="15" y="204" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       X(Y,&quot;&quot;l?fzX1Q*%BpbZrt1_;!/Qpqppkp0pdwwOzXcvzQcrjf8@w               </text>
+<text x="15" y="213" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                      #(&gt;|&quot;&quot;&quot;,i?xX|zqobOpwv(+:&quot;&quot;~uqok#*XUM&amp;$ap#kwJYXcuxj@a                </text>
+<text x="15" y="222" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       cu}&quot;,&quot;&quot;&quot;&quot;!?|t/t()?+~ii,&quot;!?txzmddp0doaqpkwZ0Ycvxxv@mJv              </text>
+<text x="15" y="231" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       0&lt;-&quot;&quot;&quot;,&quot;,:::i~&lt;i;l&gt;i&lt;i,:+}fx1)(|/jrzXXUv)-_}|tjxQpQQ               </text>
+<text x="15" y="240" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       q;!&quot;:IlIll!ll;;II!~~!;&quot;I+{trr/}&lt;!i&lt;-~&gt;i&lt;i&quot;&quot;i?)ncZLZz               </text>
+<text x="15" y="249" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                       M&gt;&quot;,;l!iii&gt;ii!i!l+]&lt;;:&quot;,&lt;}(fcc1?&lt;lI;;l!i~+])tnXzkOz                </text>
+<text x="15" y="258" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                        Y&quot;:Ii!&gt;&gt;i&gt;&lt;~~&lt;&lt;~+llil&lt;~]/t|1uf[-?_~~+]})|fuUCXLhUX                </text>
+<text x="15" y="267" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                        z&quot;:I!&gt;+~&gt;&gt;&lt;&lt;&lt;~~~}uLX)ruUpbXjuf]???][}1/tnzCQCJOvY                 </text>
+<text x="15" y="276" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                        1+&quot;IIli&gt;&gt;&gt;&lt;&lt;&lt;&lt;iIjCCJxuLdh*ZQp(+?_[1)|trvYLQQJ0YX                  </text>
+<text x="15" y="285" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                        qx&quot;;;;l&gt;&lt;&gt;iii!li_rJmkZLb**hO0ji-?})(/fxcJLQCJOUz                  </text>
+<text x="15" y="294" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                         m&quot;,:I!i&gt;ii-][1[)cr1XCXLpbqLx[+_]}(/trncULLJ0pLc                  </text>
+<text x="15" y="303" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                         W?&quot;;:Il!i(j|}]}|t|(?[/t/|jv|rrrx)/xxrcUCCJJU                     </text>
+<text x="15" y="312" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                          d:&quot;;III~(/vzUJUUCCLZpqmwmUccXQwUnuuvYCCJUY                      </text>
+<text x="15" y="321" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                           Q,Iiii~?[]]]]??]?[{{{/z0bbpLcJCvvzJLCCJXv                      </text>
+<text x="15" y="330" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                            0l;&lt;&lt;~+???]}}/uYLUnxcXcvnXUXYzcYCCJCCYun                      </text>
+<text x="15" y="339" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                             d[&gt;&lt;i~_]1{})trzLCCCYYXXJUYJUJCCCCLLCYuY                      </text>
+<text x="15" y="348" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                              p!-~il!li&lt;&lt;~_]1tcUUYYUUUUUCLLLQOmOUzjM#                     </text>
+<text x="15" y="357" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                              #i&lt;{]&gt;:Ill&lt;~_}{{}1|jxxvzUQOOZZmOLUzur%$&amp;                    </text>
+<text x="15" y="366" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                             &amp;${,&lt;_(v)[(/((fttjucccJ0OqwZ0QLUXczvtZ$B$                    </text>
+<text x="15" y="375" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                        hk#dWB@X&quot;I&gt;&lt;(nYqmzJLUJZdb*WowZCUXzvuvvcnrw$@@BB                   </text>
+<text x="15" y="384" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">                    OOh*#BwaBB$k&quot;,I&gt;&gt;&lt;_1jjUO0ZQ0ZmQvnrnnunxxxxfzo$@@@@@$k                 </text>
+<text x="15" y="393" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">         mwqwmqpbhdqkhhW$pZ8B@$%!&quot;;i+_-?1/runxjjftffffjftfft/upB$@@@@@@B$$k               </text>
+<text x="15" y="402" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">   OQOZqqwmwkaakpdbwd*@$bUaW@@$@[&quot;,I~_??})||(((()11{}}}{{(|uq%$$@@@@@@@B%&amp;B$MZ            </text>
+<text x="15" y="411" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">JOdbpqwwwdaohpwb*bOb8$%bUZa#B@$Mt&quot;&quot;I~?]][}1{[[[]?___?[})fXd%$$@@$@@@@B%%&amp;W8%@@8k          </text>
+<text x="15" y="420" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">h*kpqqdkkdwZpa&amp;MmZM$BWqZLph*%$$bX_:I~1)[?}[]]-&lt;!&gt;~]})/u0o@$$@@$@@@@@B%8W#%&amp;88##B$d        </text>
+<text x="15" y="429" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">odqpbkbpwmboW&amp;bQd@@&amp;*Zm0Cddh8BBpOzi;+juj/({]_&lt;!!&gt;]tuUpW$$@@@$@@@@@%88Mo#B&amp;&amp;MhoW&amp;W%%p      </text>
+<text x="15" y="438" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">hdbkbppda*#MoZQo@8#d0ZLcmkho#h8dXL{!}nYzr(?+I&quot;;_/UpMB$$@@@@@@@@B%&amp;MW**&amp;BM#obaW&amp;WMW&amp;@$@8*m </text>
+<text x="15" y="447" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">pdhbdk**oaoh0m&amp;%WaqqwZ0k@$$$WbWWnfx~-nnf]_-_{vQbW$$$@@@@$@@@@B%&amp;WM*aoW*oMadoW8&amp;WMWM##ao#&amp;&amp;</text>
+<text x="15" y="456" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">mkha##aaaodQd&amp;8*dwZh&amp;%B%$$@@$M&amp;%%J+&gt;~]rUZhWB$$$$$@@@@@@@@@@@%WM#ohkhhh*#kk*WWMM*ahaoo&amp;8%88</text>
+<text x="15" y="465" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">k*MMobbhhwQk&amp;WobqZwpqbmdWB$$$$$%8$d_&lt;q@$$$%B@@@@@@@@@@@$@B8Moahkbkbao#Mbd**okbkkaM%%%WMM#o</text>
+<text x="15" y="474" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">W8*kbbkkmQoWMhdpqppdkqQdooa*WB$%&amp;%$oo$@@@@$$$@@$$$@@@B%8M*hhbkkkdph#M#dpkbpdh#&amp;%%&amp;*akkhkh*</text>
+<text x="15" y="483" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">&amp;obhkdbmOaM#hpqpdbbkbmwhahdbo#@@&amp;Wa&amp;$B@@@@@@@$$@@B@@$$@%Wohhahkpk*WW#pqbbk*8%&amp;MabdbkbhaM&amp;8</text>
+<text x="15" y="492" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">#kdpddZZh*#hpqqdbdbbpZqaahbbhh8Mb#B@@@@@@$$$$@%%B@BBBW#aahkkhbd#&amp;W#*hwbhoM8WokpdhhaaW&amp;8#ak</text>
+<text x="15" y="501" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">hppbkmZhoohdddbbbkkdpmdhhhhkkakb%$$$@@B@$@$8*h#&amp;WMoakdppdkoadkW&amp;Woakmpk#&amp;M*adwaohk*8okkbdd</text>
+<text x="15" y="510" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">bbbdqZkaahbdbdkbhahbqphahkkbbpdBM*bh%*M&amp;MWaqqkoakbqqpbka*ohph%&amp;#ahoqdaMW#obwZoahho#kbbbbbd</text>
+<text x="15" y="519" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">bdbdwbakkkkbbkkkhahdwdaakdpdbdW@*QcqahobbdqboMohbkbka**ooqd*%W*oahpdoMM*ahqw*oh*hakhkbdbkk</text>
+<text x="15" y="528" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">hbbdbahkbkbkkbkhhabqdbkpqdh&amp;*#8%oaaha*bdqdko##ahahao*ooawdM%Woakapqa##ohbwpoabMakkkkkaoahh</text>
+<text x="15" y="537" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">bppbkhkkkhkkkkkhohpppdpdaM88aW%#bkbaMhdpda#M#oaha*#oaakwkM8Mohkkkdo##okdqbaapokkkdk*#akkhk</text>
+<text x="15" y="546" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">bpdhhkkhkhkkhhhahkqwpbaM&amp;88a*M#kkkhM#bdpa###okkho*ooodwbW8WokbahqaM*hbddkoadbokqb##hkkkkkk</text>
+<text x="15" y="555" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">bbbkhkkkhhkkhaookpqqkMW88Moa*okkh*MWhpda##*ohhoaaaoadqaM8Wohbkhwbo#adbbbMohd*dpa%*dkhhkbh*</text>
+<text x="15" y="564" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">bbkkhkkhhkkkaahkdqdh*&amp;&amp;8#oao#W*o*#&amp;*dpa#W#oaahaaaakqpa#&amp;Wabkkhqbo#hhkdd*#hkaam#B*haabka#oa</text>
+<text x="15" y="573" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">bkbhhhkhkhhhahbbpbhoMM&amp;##ka**oMao#Mbpk*WW*aahkhhkdqda#&amp;&amp;#hhhhpphookkbbaM*aa*bo@ohokh***b*8</text>
+<text x="15" y="582" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">akkhhhhhkkhhhkkbka##&amp;WMook#bzrL**Wopk*M8#*ohkkhkdqb**W&amp;#*kaodqhooookbk#&amp;*ooak@WokdWWhba88*</text>
+<text x="15" y="591" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">hhkhahkkhhhhabbko*#WWM*oaaW#OOhoW#pboW8WookhhhbppbaoMMM*aahdqbk*oahbka&amp;8#ooa#B*pb%WbbM@Wha</text>
+<text x="15" y="600" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">khhaahaohhhaaaho*#WW##a*a*#oooo#WdqoW8W*aahkakddho**M#ooaahbbkooohkhoWB8#oM#&amp;8dh$*ko8B#kao</text>
+<text x="15" y="609" fill="#24292f" font-size="8px" textLength="390" lengthAdjust="spacingAndGlyphs">ahhaah**aoooaa**##MWMo*##MM*ha*&amp;owh&amp;8Wokkkhkbdkho#MMM*oaoahkaoo*ahha#&amp;@&amp;##MM%Wk$#oWBWbkah*</text>
+<text x="430" y="30" fill="#24292f">
+<tspan x="430" y="30">ian@flores <tspan class="cc">-———————————————————————————————————————————————-</tspan></tspan>
+<tspan x="430" y="50"><tspan class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Software Engineer — AI &amp; Backend</tspan></tspan>
+<tspan x="430" y="70"><tspan class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> ............................... </tspan><tspan class="value">Barcelona, Spain</tspan></tspan>
+<tspan x="430" y="90"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">5 years, 11 months in production</tspan></tspan>
+<tspan x="430" y="110"><tspan class="cc">. </tspan></tspan>
+<tspan x="430" y="130">- Experience <tspan class="cc">-—————————————————————————————————————————————-</tspan></tspan>
+<tspan x="430" y="150"><tspan class="cc">. </tspan><tspan class="key">Work</tspan>.<tspan class="key">Current</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">Software Engineer @ NEORIS (EPAM), 2023–</tspan></tspan>
+<tspan x="430" y="170"><tspan class="cc">. </tspan><tspan class="key">Work</tspan>.<tspan class="key">Previous</tspan>:<tspan class="cc"> .. </tspan><tspan class="value">Full-stack Developer @ COVERCAR, 2020–23</tspan></tspan>
+<tspan x="430" y="190"><tspan class="cc">. </tspan></tspan>
+<tspan x="430" y="210">- Skills <tspan class="cc">-—————————————————————————————————————————————————-</tspan></tspan>
+<tspan x="430" y="230"><tspan class="cc">. </tspan><tspan class="key">AI</tspan>.<tspan class="key">ML</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">LLMs, RAG, embeddings, agentic systems, MCP</tspan></tspan>
+<tspan x="430" y="250"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Code</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Python, PHP, JavaScript, Java, SQL</tspan></tspan>
+<tspan x="430" y="270"><tspan class="cc">. </tspan><tspan class="key">Frameworks</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">Laravel, Symfony, Django, Angular, Next.js</tspan></tspan>
+<tspan x="430" y="290"><tspan class="cc">. </tspan><tspan class="key">Infra</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">AWS, Docker, MySQL, MongoDB, Git, ETL</tspan></tspan>
+<tspan x="430" y="310"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Spanish, Catalan, English, German</tspan></tspan>
+<tspan x="430" y="330"><tspan class="cc">. </tspan></tspan>
+<tspan x="430" y="350">- Awards <tspan class="cc">-—————————————————————————————————————————————————-</tspan></tspan>
+<tspan x="430" y="370"><tspan class="cc">. </tspan><tspan class="key">HackDays4Learning</tspan>.<tspan class="key">2025</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">1st place · Quizzards</tspan></tspan>
+<tspan x="430" y="390"><tspan class="cc">. </tspan><tspan class="key">HackDays4Learning</tspan>.<tspan class="key">2026</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">2nd place · Paper2Quizz</tspan></tspan>
+<tspan x="430" y="410"><tspan class="cc">. </tspan></tspan>
+<tspan x="430" y="430">- Education <tspan class="cc">-——————————————————————————————————————————————-</tspan></tspan>
+<tspan x="430" y="450"><tspan class="cc">. </tspan><tspan class="key">Education</tspan>.<tspan class="key">AI</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">AI &amp; Big Data specialization · IOC</tspan></tspan>
+<tspan x="430" y="470"><tspan class="cc">. </tspan><tspan class="key">Education</tspan>.<tspan class="key">Web</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Web App Development · 9.18/10</tspan></tspan>
+<tspan x="430" y="490"><tspan class="cc">. </tspan></tspan>
+<tspan x="430" y="510">- Contact <tspan class="cc">-————————————————————————————————————————————————-</tspan></tspan>
+<tspan x="430" y="530"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">ianfloresf71@gmail.com</tspan></tspan>
+<tspan x="430" y="550"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">ian-flores-fdez</tspan></tspan>
+<tspan x="430" y="570"><tspan class="cc">. </tspan><tspan class="key">Web</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">ratemydecks.com</tspan></tspan>
 </text>
 </svg>

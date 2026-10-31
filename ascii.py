@@ -2,10 +2,11 @@
 
 Se ejecuta a mano solo cuando cambia la foto: python ascii.py
 """
+import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
-COLS, ROWS = 40, 25
-CROP = (240, 200, 920, 1166)  # cabeza y hombros (x0, y0, x1, y1) sobre la foto original
+COLS, ROWS = 90, 66  # con letra de 8 px; menos resolución y los ojos se pierden
+CROP = (220, 180, 940, 1257)  # cabeza y hombros (x0, y0, x1, y1) sobre la foto original
 RAMP = " .'`^\",:;Il!i><~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 
 
@@ -51,8 +52,13 @@ def main():
     im = Image.open("foto-original.jpg").convert("RGB")
     mask = person_mask(im).crop(CROP).resize((COLS, ROWS), Image.BILINEAR)
     gray = ImageOps.grayscale(im.crop(CROP))
-    gray = ImageOps.autocontrast(gray, cutoff=1).filter(ImageFilter.UnsharpMask(4, 120))
-    gray = gray.resize((COLS, ROWS), Image.LANCZOS)
+    # normaliza la luz localmente: la mitad derecha de la cara está en sombra y el ojo se perdía
+    a = np.asarray(gray, float)
+    local = a / (np.asarray(gray.filter(ImageFilter.GaussianBlur(45)), float) + 20)
+    a = 0.5 * local / np.percentile(local, 99) + 0.5 * a / 255
+    gray = Image.fromarray(np.clip(a * 255, 0, 255).astype("uint8"))
+    gray = ImageOps.autocontrast(gray, cutoff=1).point(lambda v: int(255 * (v / 255) ** 1.4))
+    gray = gray.filter(ImageFilter.UnsharpMask(3, 160, 0)).resize((COLS, ROWS), Image.LANCZOS)
     with open("ascii_dark.txt", "w", encoding="utf-8") as f:
         f.write(to_ascii(gray, mask, invert=False))
     with open("ascii_light.txt", "w", encoding="utf-8") as f:
